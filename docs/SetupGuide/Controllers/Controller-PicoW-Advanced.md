@@ -12,7 +12,7 @@ Glitching/resetting is a problem that affects all the external UART setups that 
 
 Each time you dock/undock the Switch, the dock momentarily cuts the power to its USB ports. This causes the board to either completely lose power and reset, or worse, it glitches the board into a bad state that can only be cleared via reset or power cycle.
 
-This article will demonstrate a setup that fixes this problem for the Pico W. This setup has also been tested working on the Pro Micro. We assume it will work for the others as well, but you should consult their respective circuit diagrams to make sure they have backflow protection into the USB port.
+This article will demonstrate a setup that fixes this problem for the Pico W. Similar setups will work with the other boards, but consult their respective circuit diagrams to make sure they have the right components.
 
 This is the most difficult to do serial setup that we've ever done and is reserved for readers with extensive experience in circuits. Incorrect connections can lead to damage to the hardware components involved:
 
@@ -43,7 +43,7 @@ If you are here, we assume that you already have a working Pico W (UART mode) se
 6. [Dupont connector kit.](https://www.amazon.com/dp/B096DC1J3X) (or soldering)
 7. [Pico enclosure.](https://www.adafruit.com/product/6252)
 
-Building just one of these will be expensive since many of these parts only be bought in volume. But the volume per-unit cost in parts comes down to about $12 USD.
+Building just one of these will be expensive since many of these parts can only be bought in volume. But the volume per-unit cost in parts comes down to about $12 USD.
 
 ### Hardware Assembly:
 
@@ -98,6 +98,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
