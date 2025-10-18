@@ -54,7 +54,7 @@ Make the following connections:
 | RX | TX -> GP4 (pin 6) |
 | TX | RX <- GP5 (pin 7) |
 | GND | GND (pin 8, or any other GND pin) |
-| VCC (+5V) | VSYS via diode |
+| VCC (+5V) | VSYS (pin 39) via diode |
 
 The difference from the regular UART mode guide is that here we do connect the UART's +5V VCC line. This allows the Pico to be powered by both the USB or the UART - thus allowing it to stay powered and not glitch or reset when the USB power is momentarily lost when docking/undocking the Switch.
 
@@ -98,6 +98,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
