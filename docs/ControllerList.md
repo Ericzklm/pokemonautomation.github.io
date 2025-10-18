@@ -22,6 +22,7 @@ This table lists all the device and controller combinations that we support in t
 | <img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 1 | [Guide](SetupGuide/Controllers/Controller-PicoW-USB.md) |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) |
 | <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 | Switch 1: Wired Pro Controller | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) |
 
 ### Deprecated Setups:
@@ -43,6 +44,7 @@ These are older setups that are still supported, but no longer recommended for n
 | ESP32 | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $10<br>Volume: $4 | 3 | Unresolved Bugs:<br>- [Issue 587](https://github.com/PokemonAutomation/Arduino-Source/issues/587)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) |
 | ESP32-S3 | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller | Single: $15<br>Volume: $8 | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. |
 | Raspberry Pi Pico W<br>(UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $19<br>Volume: $10 | 5 | Exposed pins can be annoying. |
+| Raspberry Pi Pico W<br>(Advanced UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $30+<br>Volume: $12 | 10 | Best final product.<br>Does not glitch when docking. |
 | Arduino Uno R3 | NS2: Wired Controller | Single: $20 | 7 |  |
 | Arduino Leonardo | NS2: Wired Controller | Single: $25 | 7 |  |
 | Teensy 2/Teensy++ 2<br>(Mini Grabbers) | NS2: Wired Controller | (discontinued) | 8 | Final product is bulky and fragile. |
@@ -136,6 +138,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
