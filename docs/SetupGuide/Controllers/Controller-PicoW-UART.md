@@ -259,7 +259,7 @@ When you dock or undock the Switch from Nintendo's official dock, the USB moment
 
 Unfortunately, fixing this requires a more complicated hardware setup. For now we will leave it out-of-scope for this wiki.
 
-If you are experienced with circuits and would like to attempt this fix, the solution involves connecting the UART's +5V VCC to the Pico VSYS pin via a diode to prevent backflow into the UART. This allows the UART to keep the Pico powered during the momentary loss of power from the USB while docking/undocking.
+If you are experienced with circuits and would like to attempt this fix, see [Pico W (Advanced)](Controller-PicoW-Advanced.md).
 
 
 
@@ -272,6 +272,7 @@ If you are experienced with circuits and would like to attempt this fix, the sol
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
