@@ -64,8 +64,8 @@ It is important that the VCC <-> VSYS connection be done through a diode which o
 
 Further Reading:
 
-- https://www.penguintutor.com/electronics/pico-power
-- https://electronics.stackexchange.com/questions/548990/which-shottky-diode-do-i-need-for-redundant-power-to-a-raspberry-pi-pico
+- [Guide to powering the Raspberry Pi Pico](https://www.penguintutor.com/electronics/pico-power)
+- [Which Shottky diode do I need for redundant power to a Raspberry Pi Pico?](https://electronics.stackexchange.com/questions/548990/which-shottky-diode-do-i-need-for-redundant-power-to-a-raspberry-pi-pico)
 - [Pinout and Circuit Diagrams](https://deepbluembedded.com/raspberry-pi-pico-w-pinout-diagram-gpio-guide/)
 
 
@@ -100,6 +100,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
