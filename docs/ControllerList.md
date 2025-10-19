@@ -18,12 +18,12 @@ This table lists all the device and controller combinations that we support in t
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 1 | [Guide](SetupGuide/Controllers/Controller-PicoW-USB.md) |
 | <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-WROOM.md)<br>[Mac](SetupGuide/Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) |
 | <img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 1 | [Guide](SetupGuide/Controllers/Controller-PicoW-USB.md) |
+| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 | Switch 1: Wired Pro Controller | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) |
-| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 | Switch 1: Wired Pro Controller | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) |
 
 ### Deprecated Setups:
 
@@ -31,10 +31,10 @@ These are older setups that are still supported, but no longer recommended for n
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 | Switch 2: Wired Controller<br>(compatible with Switch 1) | 7 | [Guide](SetupGuide/Controllers/Controller-ArduinoUnoR3.md) |
-| <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo | Switch 2: Wired Controller<br>(compatible with Switch 1) | 7 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) |
-| <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro | Switch 2: Wired Controller<br>(compatible with Switch 1) | 8 - (Mini Grabber)<br>10 - (Hammer Header) | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) |
-| <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 | Switch 2: Wired Controller<br>(compatible with Switch 1) | 8 - (Mini Grabber)<br>10 - (Hammer Header) | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) |
+| <img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 | Switch 2: Wired Controller<br>(compatible with Switch 1) | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoUnoR3.md) |
+| <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo | Switch 2: Wired Controller<br>(compatible with Switch 1) | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) |
+| <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro | Switch 2: Wired Controller<br>(compatible with Switch 1) | 7 - (Mini Grabber)<br>9 - (Hammer Header) | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) |
+| <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 | Switch 2: Wired Controller<br>(compatible with Switch 1) | 7 - (Mini Grabber)<br>9 - (Hammer Header) | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) |
 
 ### Setup Comparison Table:
 
@@ -45,12 +45,12 @@ These are older setups that are still supported, but no longer recommended for n
 | ESP32-S3 | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller | Single: $15<br>Volume: $8 | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. |
 | Raspberry Pi Pico W<br>(UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $19<br>Volume: $10 | 5 | Exposed pins can be annoying. |
 | Raspberry Pi Pico W<br>(Advanced UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $30+<br>Volume: $12 | 10 | Best final product.<br>Does not glitch when docking. |
-| Arduino Uno R3 | NS2: Wired Controller | Single: $20 | 7 |  |
-| Arduino Leonardo | NS2: Wired Controller | Single: $25 | 7 |  |
-| Teensy 2/Teensy++ 2<br>(Mini Grabbers) | NS2: Wired Controller | (discontinued) | 8 | Final product is bulky and fragile. |
-| Teensy 2/Teensy++ 2<br>(Hammer Headers) | NS2: Wired Controller | (discontinued) | 10 |  |
-| Pro Micro<br>(Mini Grabbers) | NS2: Wired Controller | Single: $25<br>Volume: $10 | 8 | Final product is bulky and fragile. |
-| Pro Micro<br>(Hammer Headers) | NS2: Wired Controller | Single: $25<br>Volume: $8 | 10 |  |
+| Arduino Uno R3 | NS2: Wired Controller | Single: $20 | 6 |  |
+| Arduino Leonardo | NS2: Wired Controller | Single: $25 | 6 |  |
+| Teensy 2/Teensy++ 2<br>(Mini Grabbers) | NS2: Wired Controller | (discontinued) | 7 | Final product is bulky and fragile. |
+| Teensy 2/Teensy++ 2<br>(Hammer Headers) | NS2: Wired Controller | (discontinued) | 9 |  |
+| Pro Micro<br>(Mini Grabbers) | NS2: Wired Controller | Single: $25<br>Volume: $10 | 7 | Final product is bulky and fragile. |
+| Pro Micro<br>(Hammer Headers) | NS2: Wired Controller | Single: $25<br>Volume: $8 | 9 |  |
 
 
 ## Device Types
@@ -138,6 +138,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
