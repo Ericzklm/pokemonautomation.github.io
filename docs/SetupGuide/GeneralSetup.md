@@ -14,7 +14,6 @@ Once you have downloaded the package, unzip to somewhere you can access later. *
 
 <img src="Images/GeneralSetup-CCFolder.png" width="88%">
 
-
 ### If you are on x64 Linux:
 
 Our Linux setup does not work right now. It compiles and runs, but the video flickers too much to be usable.
@@ -66,10 +65,9 @@ The Audio Output and playback are only for user consumption. You can mute the pr
 **Notes:**
 
 - Some high-end capture cards (such as AVerMedia) do not have audio inputs. They use a proprietary system that fuses the audio channel with the video. Since we do not support this, you will need to run an audio cable from your Switch's headphone jack into your computer's line-in or microphone jacks.
-- Due a quirk* with many cheap capture cards (including the ones we recommend), the left and right audio channels may be reversed. If this is the case for you, try the other "Interleaved Stereo" format.
+- Due a quirk\* with many cheap capture cards (including the ones we recommend), the left and right audio channels may be reversed. If this is the case for you, try the other "Interleaved Stereo" format.
 
 \*This "quirk" causes both Windows and OBS to treat these capture cards as mono-channel audio. While we are able to recover the stereo output by separating the left/right audio channels, we can't always determine which is which - hence the reversed left/right channels.
-
 
 ## Step 5: You are done!
 
@@ -85,7 +83,6 @@ Of course there are many other programs that can also play video and audio from 
 
 Back to the [Setup Guide](index.md#step-3-controller-setup) for the next controller setup.
 
-
 ## Troubleshooting:
 
 ### Common video capture errors:
@@ -96,6 +93,7 @@ Back to the [Setup Guide](index.md#step-3-controller-setup) for the next control
 - The USB port is broken or does not provide enough power to the capture card. Try other USB ports.
 - Check your connection is secure for cables and capure card.
 - The HDMI cable may be broken. Try a new cable.
+- Privacy Settings may block programs from seeing the capture card. (see [windows privacy settings](#windows-privacy-settings))
 
 To rule out possible video capture errors:
 
@@ -118,26 +116,24 @@ Some general observations:
 
 2. Capture cards use a lot of USB bandwidth. If you put multiple capture cards on the same USB hub, you may saturate the bandwidth on that hub.
 
-3. For some unknown reason (even when both the above do not apply), it can be difficult to get multiple capture cards on the same physical USB port (by means of a hub) on the computer to work simultaneously. You may need to spread them out. Thus for a 4-Switch setup, your computer will need at least 4 USB ports - one for each capture card. But within each port, you can use a hub to connect *one* capture card and other devices as well. (such as the UART serial connections)
+3. For some unknown reason (even when both the above do not apply), it can be difficult to get multiple capture cards on the same physical USB port (by means of a hub) on the computer to work simultaneously. You may need to spread them out. Thus for a 4-Switch setup, your computer will need at least 4 USB ports - one for each capture card. But within each port, you can use a hub to connect _one_ capture card and other devices as well. (such as the UART serial connections)
+
+### Windows Privacy Settings
+
+If the capture card is not showing up in the Video Input dropdown, app access to your "camera" might be disabled. Depending on the type of capture card Windows might categorize the device as a camera. This can be found via "Device Manager" (Control Panel -> Hardware and Sound -> Device Manager).
+
+Generic Capture Card recognized as a camera:
+
+<img src="Images/GeneralSetup-DeviceManagerCaptureCardCamera.png" width="400">
+
+If so, the privacy settings for "Let apps access your camera" and "Let desktop apps access your camera" need to be enabled.
+
+Navigate to Settings -> Privacy & security -> Camera
+
+<img src="Images/GeneralSetup-WindowsCameraPrivacySetting.png" width="800">
 
 <hr>
 
-**Discord Server:** 
+**Discord Server:**
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
