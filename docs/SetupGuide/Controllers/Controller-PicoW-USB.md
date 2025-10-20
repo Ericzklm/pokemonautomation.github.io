@@ -163,9 +163,7 @@ You will notice that there are 4 controller options:
 
 "None" simply idles the Pico W and turns off its antenna so it isn't trying to connect to a Switch. The others tell the Pico W to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
-Changing programs (or even closing the application entirely) will not disconnect the Pico W from the Switch. When you load a program and connect to the Pico W, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.
-
-If you intend to do a lot of remote access, we recommend that you use a wired setup as a wired controller can connect to the Switch from anywhere and take control. The Pico W can do this, but only in UART mode.
+Changing programs (or even closing the application entirely) will not disconnect the Pico W from the Switch. When you load a program and connect to the Pico W, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly).
 
 **Connecting as a Joycon:**
 
@@ -225,6 +223,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
