@@ -199,6 +199,7 @@ Keep in mind the following behaviors:
 
 Once a Pico controller is paired with a console, it will be able to reconnect outside of the grip menu.
 
+
 ## Troubleshooting:
 
 ### Wireless Interference with Multiple wireless devices.
@@ -225,6 +226,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
