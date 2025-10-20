@@ -15,8 +15,9 @@ There are currently 4 restaurants suitable for this:
 
 ### Instructions
 
-1. Stand facing the restaurant receptionest.
-2. Start the program in the game.
+1. Make sure you have all 3 Gold Canari Plushies. Otherwise you will lose money over time!
+2. Stand facing the restaurant receptionest.
+3. Start the program in the game.
 
 The program will spam 3 moves in the following priority:
 
@@ -41,6 +42,7 @@ The program currently is not programmed to handle a loss. So make sure your part
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
