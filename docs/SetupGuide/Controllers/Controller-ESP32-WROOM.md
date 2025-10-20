@@ -223,6 +223,24 @@ Try clicking on other programs on the sidebar. You will find that all of them ar
 Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 
+## Pairing Behavior:
+
+When you connect a wireless controller to the Switch, it will remember its pairing state with that Switch. Each wireless controller has a separate pairing state. So pairing one will not automatically pair the others.
+
+Keep in mind the following behaviors:
+
+- When you switch from a different controller to a wireless controller that was previous paired, it will reconnect to the same console it is paired with.
+- When you click "Reset Ctrl", it will disconnect and try to reconnect to the console that it was paired with.
+- When you SHIFT + click "Reset Ctrl", not only does it reset, it will clear the pairing state and try to pair with a new console.
+- The ESP32 will forget its pairing state when it loses power. So unlike a real controller, it is not stored in non-volatile memory.
+
+Once an ESP32 controller is paired with a console, it will be able to reconnect outside of the grip menu.
+
+**Important:** This reconnect behavior is mirrored from the Pico W setup. On the ESP32, it only works correctly with the Switch 2. On the Switch 1, reconnect will usually fail. If you see a red status, "Disconnected by console.", it means the reconnect failed and you will need to return to the Grip menu and SHIFT + click "Reset Ctrl" to re-pair with the Switch.
+
+This bug is being tracked by [Issue 587](https://github.com/PokemonAutomation/Arduino-Source/issues/587).
+
+
 ## Troubleshooting:
 
 ### Unable to flash the ESP32. (stuck on `...`)
@@ -304,6 +322,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
