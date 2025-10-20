@@ -11,6 +11,7 @@ This is a list of all the computer-control programs. To run these programs, you 
 - [Pokémon Brilliant Diamond/Shining Pearl](#pokemon-brilliant-diamondshining-pearl)
 - [Pokémon Legends Arceus](#pokemon-legends-arceus)
 - [Pokémon Scarlet/Violet](#pokemon-scarlet-and-violet)
+- [Pokémon Legends ZA](#pokemon-legends-za)
 - [Zelda: Tears of the Kingdom](#zelda-tears-of-the-kingdom)
 
 **Notes:**
@@ -311,6 +312,16 @@ This game cannot be played with a Pro Controller and instead requires the use of
 ||
 | **Deprecated Programs:** |
 | [Autonomous Item Printer](PokemonSV/AutoItemPrinter.md)               || Video         | All |
+
+
+## Pokémon Legends ZA
+
+| **Program** | **Feedback** | **Controllers** |
+| --- | --- | --- |
+| Game Settings | --- | --- |
+||
+| **General:** |
+| [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md) | Farm the restaurant battles for exp, items, and money. | Video         | All |
 
 
 ## Zelda: Tears of the Kingdom
