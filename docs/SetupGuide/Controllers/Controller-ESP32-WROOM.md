@@ -147,7 +147,7 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 ### Step 3: Navigate to the Grip Menu
 
-The Grip menu is the only place where the ESP32 can connect to the Switch. 
+The Grip menu is the only place where a controller can wirelessly pair with the Switch.
 
 To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
 
@@ -322,6 +322,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
