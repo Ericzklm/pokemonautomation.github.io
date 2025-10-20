@@ -198,7 +198,9 @@ You will notice that there are 4 controller options:
 - Left Joycon
 - Right Joycon
 
-"None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. So you will need to be in the Grip menu or it will stay disconnected. (important if you are accessing remotely!)
+"None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the Pico W to act as that controller respectively. 
+
+Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
 Changing programs (or even closing the application entirely) will not disconnect the ESP32 from the Switch. When you load a program and connect to the ESP32, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.
 
@@ -236,7 +238,7 @@ Keep in mind the following behaviors:
 
 Once an ESP32 controller is paired with a console, it will be able to reconnect outside of the grip menu.
 
-**Important:** This reconnect behavior is mirrored from the Pico W setup. On the ESP32, it only works correctly with the Switch 2. On the Switch 1, reconnect will usually fail. If you see a red status, "Disconnected by console.", it means the reconnect failed and you will need to return to the Grip menu and SHIFT + click "Reset Ctrl" to re-pair with the Switch.
+**Important:** On the ESP32, reconnect only works correctly with the Switch 2. On the Switch 1, it will usually fail. If you see a red status, "Disconnected by console.", it means the reconnect failed and you will need to return to the Grip menu and SHIFT + click "Reset Ctrl" to re-pair with the Switch.
 
 This bug is being tracked by [Issue 587](https://github.com/PokemonAutomation/Arduino-Source/issues/587).
 
