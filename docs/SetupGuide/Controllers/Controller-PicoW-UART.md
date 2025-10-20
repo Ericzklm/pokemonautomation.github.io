@@ -161,7 +161,7 @@ Open up Device Manager and look for it under "Serial Ports". If you don't see it
 
 ### Step 3: Navigate to the Grip Menu
 
-The grip menu is the only place where a wireless controller can connect to the Switch. Wired controllers have more flexibility. But for simplicity, we'll go to the grip menu regardless.
+The grip menu is the only place where a wireless controller can pair with the Switch. Wired controllers have more flexibility. But for simplicity, we'll go to the grip menu regardless.
 
 To get there from the Switch Home screen: `Controllers` (button next to the Settings gear) -> `Change Grip/Order`
 
@@ -228,9 +228,9 @@ You will notice that there are 7 controller options:
 - NS1: Left Joycon
 - NS1: Right Joycon
 
-"None" simply idles the Pico W and turns off its USB and antenna so it isn't trying to connect to a Switch. The others tell the Pico W to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type.
+"None" simply idles the Pico W and turns off its USB and antenna so it isn't trying to connect to a Switch. The others tell the Pico W to act as that controller respectively. Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller is a wireless controller that has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
-If you are switching to a wireless controller, you will need to be in the grip menu for the connection to be successful. If not, you can just switch back to a wired controller to navigate there. This is the biggest advantage that the Pico W (UART mode) has over the ESP32!
+Changing programs (or even closing the application entirely) will not disconnect the Pico W from the Switch. When you load a program and connect to the Pico W, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly).
 
 **Connecting as a Joycon:**
 
@@ -250,6 +250,20 @@ If keyboard commands are working (along with video and audio), you are done!
 Try clicking on other programs on the sidebar. You will find that all of them are "virtual consoles" that will accept keyboard commands. At the top of every program is a link to the wiki that explains how to setup and use that program.
 
 Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
+
+
+## Pairing Behavior:
+
+When you connect a wireless controller to the Switch, it will remember its pairing state with that Switch. Each wireless controller has a separate pairing state. So pairing one will not automatically pair the others.
+
+Keep in mind the following behaviors:
+
+- When you switch from a different controller to a wireless controller that was previous paired, it will reconnect to the same console it is paired with.
+- When you click "Reset Ctrl", it will disconnect and try to reconnect to the console that it was paired with.
+- When you SHIFT + click "Reset Ctrl", not only does it reset, it will clear the pairing state and try to pair with a new console.
+- The Pico will forget its pairing state when it loses power. So unlike a real controller, it is not stored in non-volatile memory.
+
+Once a Pico controller is paired with a console, it will be able to reconnect outside of the grip menu.
 
 
 ## Troubleshooting:
@@ -273,6 +287,7 @@ If you are experienced with circuits and would like to attempt this fix, see [Pi
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
