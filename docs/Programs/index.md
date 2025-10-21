@@ -316,9 +316,9 @@ This game cannot be played with a Pro Controller and instead requires the use of
 
 ## Pokémon Legends ZA
 
-| **Program** | **Feedback** | **Controllers** |
-| --- | --- | --- |
-| Game Settings | --- | --- |
+| **Program** | **Description** | **Feedback** | **Controllers** |
+| --- | --- | --- | --- |
+| Game Settings | --- | --- | --- |
 ||
 | **General:** |
 | [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md) | Farm the restaurant battles for exp, items, and money. | Video         | All |
@@ -339,6 +339,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
