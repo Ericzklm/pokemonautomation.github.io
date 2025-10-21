@@ -322,6 +322,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 ||
 | **General:** |
 | [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md) | Farm the restaurant battles for exp, items, and money. | Video         | All |
+| [Clothing Buyer](PokemonLZA/ClothingBuyer.md) | Purchase clothing from shops. | Video         | All |
 
 
 ## Zelda: Tears of the Kingdom
