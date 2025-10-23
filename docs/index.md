@@ -63,7 +63,7 @@ We currently have automation for the following games/platforms:
 
 ## Get Me Started!
 
-- [Computer Control Setup Gude](SetupGuide/index.md)
+- [Computer Control Setup Guide](SetupGuide/index.md)
 
 **Video Tutorials:**
 
@@ -83,7 +83,7 @@ MC automation has neither been developed nor maintained in years. So it's time t
 Nevertheless, the Microcontroller wiki can be found here:
 
 - [Microcontroller Repo](https://github.com/PokemonAutomation/Microcontroller)
-- [Microcontroller Setup Gude](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/SetupGuide/README.md)
+- [Microcontroller Setup Guide](https://github.com/PokemonAutomation/Microcontroller/blob/master/Wiki/SetupGuide/README.md)
 
 
 ## Credits
