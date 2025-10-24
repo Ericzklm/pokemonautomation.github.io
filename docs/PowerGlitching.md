@@ -14,7 +14,7 @@ Each time the Nintendo Switch is docked or undocked, the dock will momentarily c
 
 In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W connected wirelessly, it will lose its pairing with the Switch. So you will need to re-pair.
 
-However, in the bad case, the microcontroller board will lose enough power to "glitch", but not enough to completely shutdown. This causes the board to become unresponsive. This is really annoying because the only way to fix it is to either press the reset button on it (if it has one), or power cycle it by unplugging every single cable attach to it and plugging it back in.
+However, in the bad case, the microcontroller board will lose enough power to "glitch", but not enough to completely shutdown. This causes the board to become unresponsive. This is really annoying because the only way to fix it is to either press the reset button on it (if it has one), or power cycle it by unplugging every single cable attached to it and plugging it back in.
 
 On the Switch 1, the bad case almost never happens. The controller would cleanly reset unnoticed. However, on the Switch 2 and further made worse by newer firmware that has increased in complexity has made the bad (glitching) case much more common.
 
