@@ -270,13 +270,11 @@ Once a Pico controller is paired with a console, it will be able to reconnect ou
 
 ## Troubleshooting:
 
-### Docking and undocking the Switch resets the Pico.
+### Docking and undocking the Switch resets or hangs the Pico.
 
-When you dock or undock the Switch from Nintendo's official dock, the USB momentarily loses power. This causes the Pico to reset back to the "None" controller and lose its wireless pairing state.
+Main Article: [Power Glitching](../../PowerGlitching.md)
 
-Unfortunately, fixing this requires a more complicated hardware setup. For now we will leave it out-of-scope for this wiki.
-
-If you are experienced with circuits and would like to attempt this fix, see [Pico W (Advanced)](Controller-PicoW-Advanced.md).
+If you are experienced with circuits and would like to attempt a hardware fix, see [Pico W (Advanced)](Controller-PicoW-Advanced.md).
 
 
 
@@ -289,6 +287,7 @@ If you are experienced with circuits and would like to attempt this fix, see [Pi
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
