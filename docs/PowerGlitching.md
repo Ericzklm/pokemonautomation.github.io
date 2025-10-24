@@ -12,11 +12,15 @@ Power glitching a problem that affects all controllers that rely entirely on the
 
 Each time the Nintendo Switch is docked or undocked, the dock will momentarily cut the power to all its USB ports. This causes problems for boards that rely on the dock for its power.
 
-In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W connected wirelessly, it will lose its pairing with the Switch. So you will need to re-pair.
+**Good Case: Clean Reboot**
 
-However, in the bad case, the microcontroller board will lose enough power to "glitch", but not enough to completely shutdown. This causes the board to become unresponsive. This is really annoying because the only way to fix it is to either press the reset button on it (if it has one), or power cycle it by unplugging every single cable attached to it and plugging it back in.
+In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W, it will lose its pairing with the Switch. So you are using the wireless controllers, you will need to re-pair them.
 
-On the Switch 1, the bad case almost never happens. The controller would cleanly reset unnoticed. However, on the Switch 2 has made the bad (glitching) case much more common. This has been further exacerbated by recent firmware with increased complexity.
+**Bad Case: Glitch + Hang**
+
+In the bad case, the microcontroller board will lose enough power to "glitch", but not enough to completely shutdown. This causes the board to become unresponsive. This is really annoying because the only way to fix it is to either press the reset button on it (if it has one), or power cycle it by unplugging every single cable attached to it and plugging it back in.
+
+On the Switch 1, the bad case is quite rare. The controller would cleanly reset unnoticed. However, on the Switch 2 has made the bad (glitching) case much more common. This has been further exacerbated by recent firmware with increased complexity.
 
 In fact, the ***Switch 2 docks will almost always glitch the microcontrollers***. This is coming into attention now as Pokémon Legends ZA brings a lot of old-time users back to automation with their old setups, but now on the Switch 2.
 
@@ -25,7 +29,7 @@ In fact, the ***Switch 2 docks will almost always glitch the microcontrollers***
 As mentioned in the previous section, you need to reset it:
 
 - If the board has a reset button, try pressing that.
-- If that doesn't work (or there is no reset button), you need to power cycle it. That means unplugging every single cable from the board to make sure it is receiving no power at all. This includes the TX and RX lines since they contain a small amount of residual power.
+- If that doesn't work (or there is no reset button), you need to power cycle it. That means unplugging both the USB and the UART to ensure no power is reaching the board. Even though the UART does not supply power to the board, there is residual leakage through the TX and RX lines to prevent the board from fully shutting down.
 
 Yes, this is incredibly annoying - especially now with the Switch 2 where it almost always glitches.
 
