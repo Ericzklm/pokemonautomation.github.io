@@ -37,9 +37,9 @@ If you are still using the old controller setup (Uno, Leonardo, Teensy, Pro Micr
 - [ESP32](SetupGuide/Controllers/Controller-ESP32-WROOM.md)
 - [ESP32-S3](SetupGuide/Controllers/Controller-ESP32-S3.md)
 
-All 3 of these setups are immune to power glitching. The Pico and the ESP32 receive their power from the computer instead of the dock so they obviously don't care if the dock cuts the power. Meanwhile, the ESP32-S3 receives power from both the computer and the dock and will stay powered if either side is powering it.
+All 3 of these setups are immune to power glitching. The Pico and the ESP32 receive their power from the computer instead of the dock. Meanwhile, the ESP32-S3 receives power from both the computer and the dock and will stay powered if either side is powering it.
 
-Unfortunately, the Pico (UART mode) draws power from the dock and is affected. But it tends to reset more often than it glitches. Nevertheless the situation is not ideal since a reset will disconnect and unpair the wireless as well.
+Unfortunately, the Pico (UART mode) is powered by the dock and is affected. But it tends to reset more often than it glitches. Nevertheless the situation is not ideal since a reset will disconnect and unpair the wireless as well.
 
 ## I am a circuits expert. How do I fix this for real?
 
