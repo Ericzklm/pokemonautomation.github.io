@@ -58,7 +58,7 @@ Make the following connections:
 
 The difference from the regular UART mode guide is that here we do connect the UART's +5V VCC line. This allows the Pico to be powered by both the USB or the UART - thus allowing it to stay powered and not glitch or reset when the USB power is momentarily lost when docking/undocking the Switch.
 
-It is important that the VCC <-> VSYS connection be done through a diode which only allows current in the direction of VCC -> VSYS. This is needed to prevent backflow through the UART when both UART and USB are connected and the USB side has a higher voltage. =
+It is important that the VCC <-> VSYS connection be done through a diode which only allows current in the direction of VCC -> VSYS. This is needed to prevent backflow through the UART when both UART and USB are connected and the USB side has a higher voltage.
 
 ***Failing to use a diode (or putting it in the wrong direction) will short the computer with the dock and potentially damage all hardware involved!***
 
@@ -100,6 +100,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
