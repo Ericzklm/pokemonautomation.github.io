@@ -2,17 +2,7 @@
 
 This is the advanced setup guide for the Pico and Pico 2 family. It is functionally the same as [UART mode](Controller-PicoW-UART.md), but it will not glitch or reset when docking/undocking the Nintendo Switch.
 
-Glitching/resetting is a problem that affects all the external UART setups that are powered by the Switch:
-
-- Pico W (UART mode)
-- Arduino Uno R3
-- Arduino Leonardo
-- Pro Micro
-- Teensy 2 / Teensy++ 2
-
-Each time you dock/undock the Switch, the dock momentarily cuts the power to its USB ports. This causes the board to either completely lose power and reset, or worse, it glitches the board into a bad state that can only be cleared via reset or power cycle.
-
-This article will demonstrate a setup that fixes this problem for the Pico W. Similar setups will work with the other boards, but consult their respective circuit diagrams to make sure they have the right components.
+Further reading: [Power Glitching](../../PowerGlitching.md)
 
 This is the most difficult to do serial setup that we've ever done and is reserved for readers with extensive experience in circuits. Incorrect connections can lead to damage to the hardware components involved:
 
@@ -100,6 +90,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
