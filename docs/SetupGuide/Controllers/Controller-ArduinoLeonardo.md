@@ -266,12 +266,13 @@ avrdude.exe: safemode: Fuses OK
 avrdude.exe done.  Thank you.
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 | Error | Solution |
 | --- | --- |
 | ArduinoLeonardo.hex is not readable: No such file or directory | Double check that you typed your file path to the .hex file correctly. Ensure there aren't any extra spaces that shouldn't be there. |
 | cannot open port \\\\.\\COM#: The system cannot find the file specified. | Make sure you typed in the correct COM port number. Also, make sure the Leonardo is plugged in and detectable by the Device Manager. If not, click the Leonardo's reset button |
+| Docking and undocking the Switch resets or hangs the board. | Main Article: [Power Glitching](../../PowerGlitching.md) |
 
 
 
@@ -285,6 +286,7 @@ avrdude.exe done.  Thank you.
 - jw
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
