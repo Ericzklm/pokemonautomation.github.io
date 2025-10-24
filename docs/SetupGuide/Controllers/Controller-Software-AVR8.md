@@ -70,6 +70,10 @@ Continue on to [Finishing Up](../index.md#step-4-finishing-up)!
 
 ## Troubleshooting:
 
+### Docking and undocking the Switch resets or hangs the board.
+
+Main Article: [Power Glitching](../../PowerGlitching.md)
+
 ### Troubleshooting serial connections:
 
 Step 1: Plug your device into the Switch without connecting the UART to the computer.
@@ -124,5 +128,6 @@ Step 2: Plug the UART side into the computer and select it in the dropdown.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
