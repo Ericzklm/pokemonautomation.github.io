@@ -43,14 +43,14 @@ These are older setups that are still supported, but no longer recommended for n
 | Raspberry Pi Pico W<br>(USB Mode) | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $8<br>Volume: $7 | 1 | Upgradable to UART mode. |
 | ESP32 | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $10<br>Volume: $4 | 3 | Unresolved Bugs:<br>- [Issue 587](https://github.com/PokemonAutomation/Arduino-Source/issues/587)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) |
 | ESP32-S3 | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller | Single: $15<br>Volume: $8 | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. |
-| Raspberry Pi Pico W<br>(UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $19<br>Volume: $10 | 5 | Exposed pins can be annoying. |
+| Raspberry Pi Pico W<br>(UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $19<br>Volume: $10 | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. |
 | Raspberry Pi Pico W<br>(Advanced UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $30+<br>Volume: $12 | 10 | Best final product.<br>Does not glitch when docking. |
-| Arduino Uno R3 | NS2: Wired Controller | Single: $20 | 6 |  |
-| Arduino Leonardo | NS2: Wired Controller | Single: $25 | 6 |  |
-| Teensy 2/Teensy++ 2<br>(Mini Grabbers) | NS2: Wired Controller | (discontinued) | 7 | Final product is bulky and fragile. |
-| Teensy 2/Teensy++ 2<br>(Hammer Headers) | NS2: Wired Controller | (discontinued) | 9 |  |
-| Pro Micro<br>(Mini Grabbers) | NS2: Wired Controller | Single: $25<br>Volume: $10 | 7 | Final product is bulky and fragile. |
-| Pro Micro<br>(Hammer Headers) | NS2: Wired Controller | Single: $25<br>Volume: $8 | 9 |  |
+| Arduino Uno R3 | NS2: Wired Controller | Single: $20 | 6 | [Vulnerable to power glitching.](PowerGlitching.md) |
+| Arduino Leonardo | NS2: Wired Controller | Single: $25 | 6 | [Vulnerable to power glitching.](PowerGlitching.md) |
+| Teensy 2/Teensy++ 2<br>(Mini Grabbers) | NS2: Wired Controller | (discontinued) | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. |
+| Teensy 2/Teensy++ 2<br>(Hammer Headers) | NS2: Wired Controller | (discontinued) | 9 | [Vulnerable to power glitching.](PowerGlitching.md) |
+| Pro Micro<br>(Mini Grabbers) | NS2: Wired Controller | Single: $25<br>Volume: $10 | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. |
+| Pro Micro<br>(Hammer Headers) | NS2: Wired Controller | Single: $25<br>Volume: $8 | 9 | [Vulnerable to power glitching.](PowerGlitching.md) |
 
 
 ## Device Types
@@ -138,6 +138,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
