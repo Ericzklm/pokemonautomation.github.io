@@ -61,7 +61,7 @@ For the Pico, you should connect the UART's +5V to the VSYS (pin 39) via a diode
 
 On the other side, the Pico already has a diode between VSYS and its own USB +5V. So you don't need to add one there. Furthermore, the Pico includes a 47uF capacitor between VSYS and GND to keep the board powered long enough to survive the transition from one power source to the other. (Keeping in mind that the diode's switching latency is much longer than the clock period of the RP2040 or RP2350 chip.)
 
-- [Pinout and Circuit Diagrams](https://deepbluembedded.com/raspberry-pi-pico-w-pinout-diagram-gpio-guide/)
+[Pinout and Circuit Diagrams](https://deepbluembedded.com/raspberry-pi-pico-w-pinout-diagram-gpio-guide/)
 
 **Breadboard Implementation:**
 
