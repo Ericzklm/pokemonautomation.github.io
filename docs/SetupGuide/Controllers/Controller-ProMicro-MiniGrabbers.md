@@ -135,7 +135,7 @@ Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.m
 
 ## Troubleshooting:
 
-### Docking and undocking the Switch resets or hangs the Arduino.
+### Docking and undocking the Switch resets or hangs the Pro Micro.
 
 Main Article: [Power Glitching](../../PowerGlitching.md)
 
@@ -150,6 +150,7 @@ Main Article: [Power Glitching](../../PowerGlitching.md)
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
