@@ -43,7 +43,7 @@ Unfortunately, the Pico (UART mode) is powered by the dock and is affected. But 
 
 ## I am a circuits expert. How do I fix this for real?
 
-The solution is to wire a setup the power mechanism to be like the ESP32-S3 where the microcontroller board can be powered by either the computer or the dock.
+The solution is to setup the power mechanism to be like the ESP32-S3 where the microcontroller board can be powered by either the computer or the dock.
 
 To do this, you must connect the UART's +5V line to the board's power input line through a fast switching Schottky Diode. The connection allows the board to draw power from the computer via the UART. The purpose of the diode is to prevent backflow where power goes from the dock into the computer where it may damage one (or both) sides.
 
