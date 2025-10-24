@@ -14,7 +14,7 @@ Each time the Nintendo Switch is docked or undocked, the dock will momentarily c
 
 **Good Case: Clean Reboot**
 
-In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W, it will lose its pairing with the Switch. So you are using the wireless controllers, you will need to re-pair them.
+In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W, it will lose its pairing with the Switch. If you are using the Pico's wireless controllers, you will need to re-pair them.
 
 **Bad Case: Glitch + Hang**
 
