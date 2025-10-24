@@ -51,6 +51,8 @@ While both sides should be supplying a steady 5V, they will not be exactly the s
 
 We currently recommend the [1N5817 Schottky Diode](https://www.amazon.com/dp/B07Q5H1SLY). But anything with similar specs should work.
 
+<img src="SetupGuide/Images/1N5817-Schottky-Diode.png">
+
 ### Pico W:
 
 Main Article: [Pico W (Advanced UART mode)](SetupGuide/Controllers/Controller-PicoW-Advanced.md)
@@ -58,6 +60,8 @@ Main Article: [Pico W (Advanced UART mode)](SetupGuide/Controllers/Controller-Pi
 For the Pico, you should connect the UART's +5V to the VSYS (pin 39) via a diode. The diode must be in the direction that allows power to flow UART -> VSYS.
 
 On the other side, the Pico already has a diode between VSYS and its own USB +5V. So you don't need to add one there. Furthermore, the Pico includes a 47uF capacitor between VSYS and GND to keep the board powered long enough to survive the transition from one power source to the other. (Keeping in mind that the diode's switching latency is much longer than the clock period of the RP2040 or RP2350 chip.)
+
+- [Pinout and Circuit Diagrams](https://deepbluembedded.com/raspberry-pi-pico-w-pinout-diagram-gpio-guide/)
 
 **Breadboard Implementation:**
 
@@ -72,6 +76,10 @@ On the other side, the Pico already has a diode between VSYS and its own USB +5V
 For the Pro Micro, you should connect the UART's +5V to the RAW pin via a diode. The diode must be in the direction that allows power to flow UART -> RAW.
 
 On the other side, the Pro Micro already has a diode that sits between RAW and its own USB +5V. So you don't need to add one there. Furthermore, the Pro Micro has a 10uF capacitor between RAW and GND to keep the board powered long enough to survive the transition from one power source to the other. (Keeping in mind that the diode's switching latency is longer than the clock period of the ATmega32U4 chip.)
+
+[Pinout and Circuit Diagrams](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro)
+
+<img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-Advanced-Breadboard0-Small.jpg" width="39%"> <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-Advanced-Breadboard1-Small.jpg" width="51%">
 
 ### The other boards (Uno, Leonardo, Teensy):
 
