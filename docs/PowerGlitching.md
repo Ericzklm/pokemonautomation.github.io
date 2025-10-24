@@ -12,7 +12,7 @@ Power glitching a problem that affects all controllers that rely entirely on the
 
 Each time the Nintendo Switch is docked or undocked, the dock will momentarily cut the power to all its USB ports. This causes problems for boards that rely on the dock for its power.
 
-In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W connected wirelessly, it lose its pairing with the Switch. So you will need to re-pair.
+In most cases, the microcontroller board will completely lose power and reboot properly. This is the good case and is usually not noticeable for wired controllers. For the Pico W connected wirelessly, it will lose its pairing with the Switch. So you will need to re-pair.
 
 However, in the bad case, the microcontroller board will lose enough power to "glitch", but not enough to completely shutdown. This causes the board to become unresponsive. This is really annoying because the only way to fix it is to either press the reset button on it (if it has one), or power cycle it by unplugging every single cable attach to it and plugging it back in.
 
