@@ -142,6 +142,13 @@ At this point, your final setup should look like this:
 Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.md).
 
 
+## Troubleshooting:
+
+### Docking and undocking the Switch resets or hangs the Arduino.
+
+Main Article: [Power Glitching](../../PowerGlitching.md)
+
+
 <hr>
 
 **Credits:**
@@ -152,6 +159,7 @@ Continue to: [Wired Controller (AVR8) Software Setup](Controller-Software-AVR8.m
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
