@@ -45,7 +45,7 @@ Unfortunately, the Pico (UART mode) is powered by the dock and is affected. But 
 
 The solution is to setup the power mechanism to be like the ESP32-S3 where the microcontroller board can be powered by either the computer or the dock.
 
-To do this, you must connect the UART's +5V line to the board's power input line through a fast switching Schottky Diode. The connection allows the board to draw power from the computer via the UART. The purpose of the diode is to prevent backflow where power goes from the dock into the computer where it may damage one (or both) sides.
+To do this, you must connect the UART's +5V line to the board's power input line through a fast switching [Schottky diode](https://en.wikipedia.org/wiki/Schottky_diode). The connection allows the board to draw power from the computer via the UART. The purpose of the diode is to prevent backflow where power goes from the dock into the computer where it may damage one (or both) sides.
 
 While both sides should be supplying a steady 5V, they will not be exactly the same. So power will flow from the higher side to the lower side. Most boards already have a diode that prevents backflow into its USB. So while backflow from computer -> dock is not possible, backflow from dock -> computer is possible without a diode. This is the reason why our guides leave the +5V VCC line disconnected.
 
