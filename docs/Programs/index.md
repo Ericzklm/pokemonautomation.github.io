@@ -321,8 +321,10 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | Game Settings | --- | --- | --- |
 ||
 | **General:** |
-| [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md) | Farm the restaurant battles for exp, items, and money. | Video         | All |
-| [Clothing Buyer](PokemonLZA/ClothingBuyer.md) | Purchase clothing from shops. | Video         | All |
+| [Clothing Buyer](PokemonLZA/ClothingBuyer.md)                          | Purchase clothing from shops.                          | Video         | All |
+| [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md)                    | Farm the restaurant battles for exp, items, and money. | Video         | All |
+| [Shiny Hunt - Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md)             | Shiny hunt using the bench reset method.               | Video + Audio | All |
+| [Shiny Hunt - Overworld Reset](PokemonLZA/ShinyHunt-OverworldReset.md) | Shiny hunt using the overworld reset method.           | Video + Audio | All |
 
 
 ## Zelda: Tears of the Kingdom
