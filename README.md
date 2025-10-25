@@ -15,16 +15,36 @@ If you are part of the developer team and want to push changes to pokemonautomat
 
 ## Local Website Development
 
+### Required Installation
+
 To develop the website locally on your PC, you need to install MkDocs Material
+
 ```
 pip install mkdocs-material
 ```
 
+For macOS, you also need to install some system-wide libraries (we install them via Homebrew):
+```
+brew install cairo pango gdk-pixbuf libffi
+```
+
+and to ensure those libraries can be found by your Python environment (e.g. Anaconda), run following:
+
+```
+export DYLD_FALLBACK_LIBRARY_PATH="/opt/homebrew/lib:$DYLD_FALLBACK_LIBRARY_PATH"
+```
+
+### Hosting Local Website
+
 After making changes on the main branch, to view the generated website locally, at the root folder of this repo, run
+
 ```
 mkdocs serve
 ```
+
 Then visit http://127.0.0.1:8000 in your browser to see the website.
+
+Note: when serving the website locally, various website data is stored at `site/` which is ignored by .gitignore. The data includes the 404 page `site/404.html` and social preview cards `site/assets/images/social/index.png`.
 
 
 # How the Website Works
