@@ -1,3 +1,8 @@
+---
+title: Landing Page
+description: "Free software to automate Pokémon games on retail Switch and Switch 2. Legends: Z-A automation is now in development."
+---
+
 #  Pokémon Automation (Landing Page)
 
 Welcome to Pokémon Automation's official GitHub group.

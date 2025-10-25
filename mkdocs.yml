@@ -65,10 +65,10 @@ plugins:
   # Create social cards for link preview
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/
   # This only works if "site_url" is set in mkdocs.yml.
-  - social:
-      cards_layout_options:
-        title: "Pokémon Automation"
-        description: "Automate Pokémon games on retail Switch consoles"
-        background_color: "#009688"  # Matches your teal primary color
-        color: "#ffffff"
-        font_family: "Roboto"
+  - social
+
+# Exclude unused docs from being generated into webpages
+# https://www.mkdocs.org/user-guide/configuration/#exclude_docs
+exclude_docs: |
+  /z_TestHome.md
+  /z_TemplateProgramPage.md

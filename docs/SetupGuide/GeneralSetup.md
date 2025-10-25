@@ -1,4 +1,4 @@
-# General Setup:
+# General Setup (Windows)
 
 This section will walk you through setting up everything leading up the the controller.
 

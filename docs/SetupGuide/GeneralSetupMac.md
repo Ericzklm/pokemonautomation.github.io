@@ -1,4 +1,4 @@
-# General Setup:
+# General Setup (macOS)
 
 This section will walk you through setting up everything leading up the the controller.
 
@@ -6,7 +6,7 @@ This section will walk you through setting up everything leading up the the cont
 
 ### Stop and Check:
 
-If your MacOS version is Monterrey (12) or lower, you will need to compile SerialPrograms from source code. Instructions to do so can be found [here](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md). Follow the tutorial to build SerialProgram and return back here to setup video/audio.
+If your macOS version is Monterrey (12) or lower, you will need to compile SerialPrograms from source code. Instructions to do so can be found [here](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/BuildInstructions/CompilingForMac.md). Follow the tutorial to build SerialProgram and return back here to setup video/audio.
 
 > To check your OS version, click the Apple logo at the top left in the Toolbar and select **About This Mac**.
 
@@ -14,7 +14,7 @@ If your MacOS version is Monterrey (12) or lower, you will need to compile Seria
 
 ### Download SerialPrograms-Installer.dmg
 
-For those with MacOS Ventura (13) and later, download the latest version of our programs [here](https://github.com/PokemonAutomation/AutoBuildRelease/releases)
+For those with macOS Ventura (13) and later, download the latest version of our programs [here](https://github.com/PokemonAutomation/AutoBuildRelease/releases)
 
 
 ## Step 2: Open up SerialPrograms.
@@ -27,7 +27,7 @@ For those with MacOS Ventura (13) and later, download the latest version of our 
 
 3. Go to your `Applications` folder and open `SerialPrograms` 
 
-4. You will be greeted with the following warning, click **Done**. This warning is given on any program downloaded on the internet that does not have Apple's official (paid) notarization. This project is unmonitized and the entirety of the MacOS installation is open sourced if you wish to vet the program yourself.
+4. You will be greeted with the following warning, click **Done**. This warning is given on any program downloaded on the internet that does not have Apple's official (paid) notarization. This project is unmonitized and the entirety of the macOS installation is open sourced if you wish to vet the program yourself.
 
     <img src="Images/Mac/open-warning.png" width=400 style="display: block; margin: 10px 40px">
 

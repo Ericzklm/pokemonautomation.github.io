@@ -51,11 +51,11 @@ Specifically, the computer must:
 
 You will also need 2 spare USB ports. (or 2 ports per Switch if you intend to run multiple Switches)
 
-**MacOS:**
+**macOS:**
 
-CC is functional on MacOS albeit missing a few features present on Windows. A distributable is available for Intel and M1 Macs on MacOS Ventura (13) or later. For MacOS Monterrey (12) and earlier, you will need to follow an extra set of instructions to build CC from source code.
+CC is functional on macOS albeit missing a few features present on Windows. A distributable is available for Intel and M1 Macs on macOS Ventura (13) or later. For macOS Monterrey (12) and earlier, you will need to follow an extra set of instructions to build CC from source code.
 
-If you are an experienced developer with MacOS, your help in making MacOS feature-complete would be greatly appreciated!
+If you are an experienced developer with macOS, your help in making macOS feature-complete would be greatly appreciated!
 
 **Other Platforms:**
 
@@ -142,7 +142,7 @@ The setup is quite simple until you get to the controller. So we will cover ever
 
 See: [General Setup for Windows](GeneralSetup.md)
 
-See: [General Setup for MacOS](GeneralSetupMac.md)
+See: [General Setup for macOS](GeneralSetupMac.md)
 
 When you are done, you should have the CC window running and looking like this:
 

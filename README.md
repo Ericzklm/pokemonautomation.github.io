@@ -44,7 +44,16 @@ mkdocs serve
 
 Then visit http://127.0.0.1:8000 in your browser to see the website.
 
-Note: when serving the website locally, various website data is stored at `site/` which is ignored by .gitignore. The data includes the 404 page `site/404.html` and social preview cards `site/assets/images/social/index.png`.
+
+### Building Local Website
+
+You can also run
+
+```
+mkdocs build
+```
+
+to build the website into a folder `site/`, which is already ignored by .gitignore. The folder includes all the generated webpages, the 404 page `site/404.html` and social preview cards `site/assets/images/social/index.png`.
 
 
 # How the Website Works
