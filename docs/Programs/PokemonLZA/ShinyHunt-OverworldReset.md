@@ -4,11 +4,13 @@
 
 Automate this shiny hunting method: https://x.com/astephen68/status/1981218146041438527
 
-The core mechanic of this method is that after a Pokémon is despawned (defeated/caught), it will respawn in its original location after about 5 minutes. If you save just before it respawns, it will respawn immediately after resetting the game. Thus it produces an efficent soft-reset based method to shiny hunt almost every Pokémon in the game.
+The core mechanic of this method is that after a Pokémon is despawned (defeated/caught), it will respawn in its original location after about 5 minutes. If you save just before it respawns, it will respawn immediately after resetting the game.
+
+Therefore, this program is an efficent soft-reset based method to shiny hunt almost every Pokémon in the game - including those that are far away from benches or fly spots.
 
 The important aspect of this method is that you must be close enough to the spawn for the shiny sound to play. So you should save either next to it, or (for skittish Pokémon) as close as possible without immediately scaring it away when it respawns.
 
-<img src="images/ShinyHunt-OverworldReset.jpg">
+<img src="images/ShinyHunt-OverworldReset.png">
 (image credit: Scotteh)
 
 ### Instructions
@@ -49,6 +51,7 @@ When a shiny is detected, wait this long before you take a screenshot and record
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
