@@ -4,12 +4,7 @@ This is the advanced setup guide for the Pico and Pico 2 family. It is functiona
 
 Further reading: [Power Glitching](../../PowerGlitching.md)
 
-This is the most difficult to do serial setup that we've ever done and is reserved for readers with extensive experience in circuits. Incorrect connections can lead to damage to the hardware components involved:
-
-- The Pico W board.
-- The UART cable/board.
-- Your computer's USB port.
-- Your Switch's dock.
+This is the most difficult to do serial setup that we've ever done and is reserved for readers with extensive experience in circuits. Incorrect connections can lead to damage to the hardware components involved.
 
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
 | --- | --- | --- | --- |
@@ -90,6 +85,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
