@@ -2,7 +2,7 @@
 
 ## Program Description
 
-Automate this shiny hunting method: https://x.com/astephen68/status/1981218146041438527
+Automate this shiny hunting method: [https://x.com/astephen68/status/1981218146041438527](https://x.com/astephen68/status/1981218146041438527)
 
 The core mechanic of this method is that after a Pokémon is despawned (defeated/caught), it will respawn in its original location after about 5 minutes. If you save just before it respawns, it will respawn immediately after resetting the game.
 
@@ -33,7 +33,7 @@ The only option you should use is "Stop program and go Home." The other options 
 
 ### Take a Video
 
-Record a video of the encounter. This will happen each time a notification is sent. So be careful if you are notifying on all shiny sounds as this may lead a lot of recorded videos of the same shiny.
+Record a video of the encounter.
 
 ### Screenshot Delay
 
@@ -51,6 +51,7 @@ When a shiny is detected, wait this long before you take a screenshot and record
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
