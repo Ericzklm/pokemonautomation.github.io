@@ -57,11 +57,11 @@ Further Reading:
 
 Here are some various pictures of a working setup:
 
-**Breadboard:**
+**Breadboard Prototype:**
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard0-Small.jpg" width="39%"> <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard1-Small.jpg" width="51%">
 
-**Raw Connection:**
+**"Production-Level" Setup:**
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Raw0-Small.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-Advanced-Raw1-Small.jpg" width="45%">
 
@@ -85,6 +85,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
