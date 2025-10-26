@@ -67,11 +67,11 @@ On the other side, the Pico already has a diode between VSYS and its own USB +5V
 
 [Pinout and Circuit Diagrams](https://deepbluembedded.com/raspberry-pi-pico-w-pinout-diagram-gpio-guide/)
 
-**Breadboard Implementation:**
+**Breadboard Prototype:**
 
 <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard0-Small.jpg" width="39%"> <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Breadboard1-Small.jpg" width="51%">
 
-**Raw Connection:**
+**"Production-Level" Setup:**
 
 <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Raw0-Small.jpg" width="45%"> <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced-Raw1-Small.jpg" width="45%">
 
