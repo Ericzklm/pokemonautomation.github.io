@@ -66,7 +66,7 @@ Notes:
 - You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
 - There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
-Unlike other controllers, we ***strongly*** recommend the ones with pins for the sole reason that it becomes much easier to do [UART Mode](Controller-PicoW-UART.md) in the future. We only recommend the pinless boards if you either never intend to do UART mode, or if you have another way to connect to the holes (such as soldering, mini-grabbers, hammer headers, etc...)
+Unlike other controllers, we recommend the ones with pins for the sole reason that it becomes much easier to do [UART Mode](Controller-PicoW-UART.md) in the future. Without the pins, it becomes very difficult to attach the UART without. We only recommend the pinless boards if you either never intend to do UART mode, or if you have another way to connect to the holes (such as soldering, mini-grabbers, hammer headers, etc...)
 
 **A micro-USB  cable:**
 
@@ -226,6 +226,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
