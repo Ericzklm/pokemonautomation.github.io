@@ -323,6 +323,8 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | **General:** |
 | [Clothing Buyer](PokemonLZA/ClothingBuyer.md)                          | Purchase clothing from shops.                          | Video         | All |
 | [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md)                    | Farm the restaurant battles for exp, items, and money. | Video         | All |
+||
+| **Shiny Hunting:** |
 | [Shiny Hunt - Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md)             | Shiny hunt using the bench reset method.               | Video + Audio | All |
 | [Shiny Hunt - Overworld Reset](PokemonLZA/ShinyHunt-OverworldReset.md) | Shiny hunt using the overworld reset method.           | Video + Audio | All |
 
@@ -342,6 +344,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
