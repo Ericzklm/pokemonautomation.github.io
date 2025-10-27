@@ -73,10 +73,12 @@ This is the most versatile setup as it supports every single controller in this 
 
 Notes:
 
-- You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
+- You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection!* The "H" doesn't matter, though most of the boards with pins are also "H".
 - There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
 Here you will need the versions with pre-soldered pins in order to connect the UART. If you have other methods of connecting such as soldering or [press-fit/hammer headers](https://www.adafruit.com/product/5938), feel free to get the pinless ones and do your own thing.
+
+<sup>*While the wired controllers have been reported to work on a regular (non-W) Pico, it is not officially supported nor do we recommend it.</sup>
 
 **A micro-USB  cable:**
 
@@ -134,9 +136,9 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 ### Step 1: Flash the firmware to the Pico W.
 
-1. Unplug the Pico W from your computer.
+1. Unplug the Pico W from everything. (both computer and dock)
 2. Press and hold the white `Bootsel` button.
-3. Plug the Pico W back into your computer while holding the `Bootsel` button. You can now release the button.
+3. Plug the Pico W's USB back into your computer while holding the `Bootsel` button. You can now release the button.
 4. Go to "This PC" and look for a storage device:
 
      - On the Pico W(H), it will be named `RPI-RP2`.
@@ -154,7 +156,7 @@ If not, you should go back to the [general setup guide](../index.md) and start o
 
 ### Step 2: Install UART drivers
 
-If your computer doesn't recognize the UART as a COM port (serial device), you may ineed to install the UART drivers. If you brought the Adafruit UART in this guide, the driver you will need is this:
+If your computer doesn't recognize the UART as a COM port (serial device), you may need to install the UART drivers. If you brought the Adafruit UART in this guide, the driver you will need is this:
 
 - CP210x: [https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)
 
@@ -288,6 +290,7 @@ If you are experienced with circuits and would like to attempt a hardware fix, s
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
