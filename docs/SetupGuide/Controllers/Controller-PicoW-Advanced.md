@@ -26,9 +26,10 @@ If you are here, we assume that you already have a working Pico W (UART mode) se
 4. [1N5817 Schottky Diode](https://www.amazon.com/dp/B07Q5H1SLY)
 5. [Press-fit Headers.](https://www.adafruit.com/product/5938) (or soldering)
 6. [Dupont connector kit.](https://www.amazon.com/dp/B096DC1J3X) (or soldering)
-7. [Pico enclosure.](https://www.adafruit.com/product/6252)
+7. [Pico enclosure.](https://www.adafruit.com/product/6252) (only compatible with Picos without pins)
 
 Building just one of these will be expensive since many of these parts can only be bought in volume. But the volume per-unit cost in parts comes down to about $12 USD.
+
 
 ### Hardware Assembly:
 
@@ -85,6 +86,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
