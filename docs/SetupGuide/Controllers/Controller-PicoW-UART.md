@@ -118,8 +118,8 @@ Make the following connections:
 
 Notes:
 
-- **If you did **not** buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
-- It is important to leave VCC disconnected. VCC allows the UART to power the board. But the board is already being powered by the USB. Attempting to power the board from multiple sources without the appropriate backflow protection can damage your hardware!
+- **If you did *NOT* buy the Adafruit UART, your wire colors will be different!** Refer to your UART's manual or board for the correct pins. Often, with CP210x modules, the pin type is written on the board itself. Also, note that the color of the jumper wires do not matter.
+- It is important to leave VCC disconnected. VCC allows the UART to power the board, but the board is already being powered by the USB. Attempting to power the board from multiple sources without the appropriate backflow protection can damage your hardware!
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-UART-Wiring-0.jpg">
 
@@ -290,6 +290,7 @@ If you are experienced with circuits and would like to attempt a hardware fix, s
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
