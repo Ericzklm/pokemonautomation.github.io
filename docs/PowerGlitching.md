@@ -20,7 +20,7 @@ In most cases, the microcontroller board will completely lose power and reboot p
 
 In the bad case, the microcontroller board will lose enough power to "glitch", but not enough to completely shutdown. This causes the board to become unresponsive. This is really annoying because the only way to fix it is to either press the reset button on it (if it has one), or power cycle it by unplugging every single cable attached to it and plugging it back in.
 
-On the Switch 1, the bad case is quite rare. The controller would cleanly reset unnoticed. However, on the Switch 2 has made the bad (glitching) case much more common. This has been further exacerbated by recent firmware with increased complexity.
+On the Switch 1, the bad case is quite rare. The controller would cleanly reset unnoticed. However, on the Switch 2 has made the bad (glitching) case much more common. This has been further exacerbated by recent changes in our stack that has drastically increased the complexity of the firmware.
 
 In fact, the ***Switch 2 docks will almost always glitch the microcontrollers***. This is coming into attention now as Pokémon Legends ZA brings a lot of old-time users back to automation with their old setups, but now on the Switch 2.
 
