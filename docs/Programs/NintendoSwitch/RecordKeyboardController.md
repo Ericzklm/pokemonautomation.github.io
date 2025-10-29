@@ -15,6 +15,7 @@ For developers: you can also convert this `.json` file into a `.txt` file that c
 - Perform your actions with the keyboard.
 - Press "Stop Program" when you are done.
 - The actions will be saved to a .json file. The name of this file will be as per the text box next to "File name".
+    - e.g. If the box has the text "UserSettings/recording1", then `recording1.json` will be created within the `UserSettings` folder.
 
 ### Replay mode
 
@@ -55,5 +56,6 @@ After recording, a text file with the C++ code will automatically be generated. 
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
