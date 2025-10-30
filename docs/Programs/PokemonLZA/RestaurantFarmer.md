@@ -19,7 +19,21 @@ There are currently 4 restaurants suitable for this:
 2. Stand facing the restaurant receptionist.
 3. Start the program in the game.
 
-The program will spam 3 moves in the following priority:
+This program has 2 modes: With and without a battle AI.
+
+**With Battle AI (new to v0.59.5):**
+
+In this mode, the program will choose the move with the best type effectiveness against the opponents. In the event of a tie, they will chosen in this priority order:
+
+- Top
+- Left
+- Right
+- Bottom
+
+
+**Without Battle AI:**
+
+In this mode, the program will spam 3 moves in the following priority:
 
 - Top
 - Left
@@ -27,11 +41,13 @@ The program will spam 3 moves in the following priority:
 
 It will never use the Right move slot as that is the A button which interferes with parts of the program.
 
-If your Pokémon faints, it will automatically timeout and switch to the next Pokémon in your party. Keep that in mind if you expect your lead to faint. The move priority is the same for all members of your party.
 
-The program currently is not programmed to handle a loss. So make sure your party is sufficiently strong to guarantee a win.
+In both modes, if your Pokémon faints, it will automatically timeout and switch to the next Pokémon in your party. Keep that in mind if you expect your lead to faint. The move priority is the same for all members of your party.
+
 
 ### Tips
+
+With battle AI enabled, have 4 strong moves of different types that maximize type coverage. The order does not matter.
 
 Restaurant Le Yeah: To avoid being stalled by Talonflame/Altaria, choose Pokemon with these attributes:
 - Talonflame's Flame Wheel should not be the highest damaging option against your Pokemon. Talonflame's moves are Hurricane, Flame Wheel, U-Turn, and Steel Wing
