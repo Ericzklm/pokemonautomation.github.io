@@ -62,7 +62,10 @@ At any time, you can click the button "Save Annotation" to save your current wor
 
 #### Go to Next Image
 
-Click the button "Next Image in Folder" to move to the next image in the same folder as the currently displayed image. The program automatically saves the annotation of the previous image.
+Click the button "Next Image in Folder" (shortcut key X) to move to the next image in the same folder as the currently displayed image. The program automatically saves the annotation of the previous image.
+
+Click the button "Prev Image in Folder" (shortcut key Z) to move back to the previous image.
+
 
 #### When You Are Done
 
