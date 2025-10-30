@@ -11,7 +11,7 @@ There are currently 4 restaurants suitable for this:
 - Restaurant Le Wow (3 Star)
 - Sushi High Roller (Multi-battles)
 
-<img src="images/RestaurantFarmer.jpg">
+<img src="images/RestaurantFarmer.png">
 
 ### Instructions
 
@@ -65,6 +65,7 @@ Sushi High Roller: The player is not immune to damage here so you can lose if th
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
