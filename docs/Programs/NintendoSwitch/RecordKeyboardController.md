@@ -4,6 +4,8 @@
 
 Record actions with the keyboard controller, then play it back. The action recordings are saved in a `.json` file.
 
+NOTE: Each keypress has a small amount of error when recorded/played back (approximately 8-15 ms). I recommend fewer long button presses instead of many short button presses.
+
 For developers: you can also convert this `.json` file into a `.txt` file that contains the C++ code.
 
 ## Instructions
@@ -56,6 +58,7 @@ After recording, a text file with the C++ code will automatically be generated. 
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
