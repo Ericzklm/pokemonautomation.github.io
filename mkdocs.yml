@@ -67,6 +67,11 @@ plugins:
   # This only works if "site_url" is set in mkdocs.yml.
   - social
 
+# extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+
 # Exclude unused docs from being generated into webpages
 # https://www.mkdocs.org/user-guide/configuration/#exclude_docs
 exclude_docs: |
