@@ -18,7 +18,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - toc.integrate
+    - toc.follow
+    #- toc.integrate
     - search.suggest
     - search.highlight
   palette:
