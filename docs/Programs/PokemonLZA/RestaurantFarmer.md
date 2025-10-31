@@ -49,11 +49,23 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 
 With battle AI enabled, have 4 strong moves of different types that maximize type coverage. The order does not matter.
 
-Restaurant Le Yeah: To avoid being stalled by Talonflame/Altaria, choose Pokemon with these attributes:
-- Talonflame's Flame Wheel should not be the highest damaging option against your Pokemon. Talonflame's moves are Hurricane, Flame Wheel, U-Turn, and Steel Wing
-- The move in the top slot should be able to one-hit KO Talonflame. Talonflame is level 45 so the bar is fairly low.
+**Restaurant Le Yeah**: To avoid being stalled by Talonflame/Altaria, choose Pokemon with these attributes:
 
-Sushi High Roller: The player is not immune to damage here so you can lose if the player takes too much damage from stray attacks. Choose Pokemon that have good AOE moves and ones that cant faint since the opponents target you if your Pokemon faint.
+- Talonflame's Flame Wheel should not be the highest damaging option against your Pokemon. Talonflame's moves are Hurricane, Flame Wheel, U-Turn, and Steel Wing
+- The highest priority move should one-hit KO Talonflame. Talonflame is level 45 so the bar is fairly low.
+
+**Restaurant Le Wow**: 10 consecutive battles, high-leveled Pokemon recommended
+
+- Shell Bell is recommended to sustain through all 10 battles
+- The first opponent will attempt to poison you. The Pokemon that's sent out first will likely faint to this if it's not Poison or Steel type
+- The fourth opponent has Rocky Helmet and stall tactics. If you're using contact moves, you may take significant damage here
+- Some opponents have moves with a burn chance which can hinder physical attackers and do damage over time
+- You will lose 60k+ for each round of 10 battles even with all 3 Gold Canari Plush so make sure you have enough money to begin with. The reward of 10 Pearl Strings sells for 100k so you can recover your money afterwards
+
+**Sushi High Roller**: Multi-battles with wild Pokemon AI
+
+- The player is not immune to damage here so you can lose if the player takes too much damage from stray attacks
+- Choose Pokemon that have good AOE moves and ones that cant faint since the opponents target you if your Pokemon faint.
 
 ## Credits
 
