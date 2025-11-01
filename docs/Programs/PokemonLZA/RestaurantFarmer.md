@@ -49,23 +49,180 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 
 With battle AI enabled, have 4 strong moves of different types that maximize type coverage. The order does not matter.
 
+When to pick each restaurant:
+
+- **Restaurant Le Nah**: You want to farm battle wins for Mable's Research or you want to farm some money but dont have much money-in-hand and dont have Pokemon trained for harder restaurants
+- **Restaurant Le Yeah**: You want to farm some exp but dont have Pokemon trained for harder restaurants
+- **Restaurant Le Wow**: You want to farm lots of exp and good money. You have some money-in-hand and have leveled up and trained Pokemon
+- **Sushi High Roller**: You want to maximize money farming and/or farm Seeds of Mastery. You have lots of money-in-hand and have relatively leveled and trained Pokemon
+
+<Table>
+  <tr>
+    <th></th>
+    <th>Restaurant Le Nah</th>
+    <th>Restaurant Le Yeah</th>
+    <th>Restaurant Le Wow</th>
+    <th>Sushi High Roller</th>
+  </tr>
+  <tr>
+    <th>Difficulty</th>
+    <td>Easy</td>
+    <td>Medium</td>
+    <td>Hardest</td>
+    <td>Hard</td>
+  </tr>
+  <tr>
+    <th>Rounds</th>
+    <td>3</td>
+    <td>5</td>
+    <td>10</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <th>Fee</th>
+    <td>3,000</td>
+    <td>15,000</td>
+    <td>100,000</td>
+    <td>30,000</td>
+  </tr>
+  <tr>
+    <th>Battle Earnings*</th>
+    <td>7,250</td>
+    <td>16,250</td>
+    <td>39,500</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>Item Reward Sale Value</th>
+    <td>1,250</td>
+    <td>7,500**</td>
+    <td>100,000</td>
+    <td>40,000</td>
+  </tr>
+  <tr>
+    <th>Net Profit w/o Items*</th>
+    <td>4,250</td>
+    <td>1,250</td>
+    <td>-60,500</td>
+    <td>-30,000</td>
+  </tr>
+  <tr>
+    <th>Net Profit w/ Items*</th>
+    <td>5,500</td>
+    <td>8,750</td>
+    <td>31,500</td>
+    <td>10,000</td>
+  </tr>
+  <tr>
+    <th>Minutes per Round*</th>
+    <td>2.67 minutes</td>
+    <td>5 minutes</td>
+    <td>10 minutes</td>
+    <td>2.25 minutes</td>
+  </tr>
+  <tr>
+    <th>Pocket Difference per Hour*</th>
+    <td>95,500 per hour</td>
+    <td>15,000 per hour</td>
+    <td>-363,000 per hour***</td>
+    <td>-800,000 per hour***</td>
+  </tr>
+  <tr>
+    <th>Profit (w/ Items) per Hour*</th>
+    <td>124,000 per hour</td>
+    <td>105,000 per hour</td>
+    <td>189,000 per hour</td>
+    <td>267,000 per hour</td>
+  </tr>
+  <tr>
+    <th>Other Rewards</th>
+    <td>3 Exp Candy S</td>
+    <td>4 Exp Candy M</td>
+    <td>10 Exp Candy L</td>
+    <td>1 Seed of Mastery</td>
+  </tr>
+  <tr>
+    <th>Exp Gain</th>
+    <td>Low</td>
+    <td>Medium</td>
+    <td>Highest</td>
+    <td>High</td>
+  </tr>
+</Table>
+
+\* Values are estimates with 3 Gold Canari Plush. Time estimates are taken from optimized runs with quick KOs and a single Pokemon  
+\*\* Le Yeah's 30x Tiny Mushroom reward can hit the 999 item limit which significantly cuts into profit. This maxes out in an estimated 3 hours  
+\*\*\* Le Wow and Sushi High Roller give the most money but rely heavily on item rewards for that money. Your money-in-hand will actually decrease over time so you need initial seed money. You cannot run these indefinitely
+
+### Recommended Pokemon
+
+**Restaurant Le Nah**: No special considerations
+
 **Restaurant Le Yeah**: To avoid being stalled by Talonflame/Altaria, choose Pokemon with these attributes:
 
-- Talonflame's Flame Wheel should not be the highest damaging option against your Pokemon. Talonflame's moves are Hurricane, Flame Wheel, U-Turn, and Steel Wing
-- The highest priority move should one-hit KO Talonflame. Talonflame is level 45 so the bar is fairly low.
+  - Talonflame's Flame Wheel should not be the highest damaging option against your Pokemon. Talonflame's moves are Hurricane, Flame Wheel, U-Turn, and Steel Wing
+  - The highest priority move should one-hit KO Talonflame. Talonflame is level 45 so the bar is fairly low.
 
-**Restaurant Le Wow**: 10 consecutive battles, high-leveled Pokemon recommended
+**Restaurant Le Wow**: The hardest restaurant which encourages high leveled and EV trained Pokemon
 
-- Shell Bell is recommended to sustain through all 10 battles
-- The first opponent will attempt to poison you. The Pokemon that's sent out first will likely faint to this if it's not Poison or Steel type
-- The fourth opponent has Rocky Helmet and stall tactics. If you're using contact moves, you may take significant damage here
-- Some opponents have moves with a burn chance which can hinder physical attackers and do damage over time
-- You will lose 60k+ for each round of 10 battles even with all 3 Gold Canari Plush so make sure you have enough money to begin with. The reward of 10 Pearl Strings sells for 100k so you can recover your money afterwards
+- Dragalge can solo the entire round and is likely the only solo option for long term farming. This leaves 5 open slots for exp training:
 
-**Sushi High Roller**: Multi-battles with wild Pokemon AI
+    <table>
+      <tr>
+        <td>
+          <b>Dragalge</b> @ Shell Bell<br>
+          Level 100<br>
+          EVs: 252 HP / 252 SpA<br>
+          Modest Nature<br>
+          - Sludge Bomb   (Top)<br>
+          - Dragon Pulse  (Left)<br>
+          - Thunderbolt   (Right)<br>
+          - Hydro Pump    (Bottom)<br>
+          <i>[Move Selection AI enabled, Plus Moves disabled]</i>
+        </td>
+      </tr>
+    </table>
+  
+- Considerations when using your own Pokemon
+  
+    - Some form of healing is recommended. Shell Bell and/or draining moves are good options
+    - The first opponent will attempt to poison you. The Pokemon that's sent out first will likely faint to this if it's not Poison or Steel type
+    - The second opponent can potentially burn your Pokemon. It will cripple physical attackers and your Pokemon may not be able to outheal the burn
+    - The second opponent also has moves that can angle the camera away and kill the run if the Pokemon are not immediately one-hit KO'd
+    - The fourth opponent has Rocky Helmet and stall tactics. If you're using contact moves, you may take significant damage here
+    - The best defense is a good offense, you'll take more damage if you're not able to quickly one-hit KO your opponents
+
+
+**Sushi High Roller**: 3 Pokemon at once. You'll want something to KO everything quickly
 
 - The player is not immune to damage here so you can lose if the player takes too much damage from stray attacks
-- Choose Pokemon that have good AOE moves and ones that cant faint since the opponents target you if your Pokemon faint.
+- Choose Pokemon that have good ranged AOE moves that can knock out all 3 Pokemon quickly in one move to maximize your earnings and minimize player damage. Examples: Surf, Sludge Wave
+- Examples of builds that can solo the entire round. Many other great options exist:
+  
+    <table>
+      <tr>
+        <td>
+            <b>Clawitzer</b> @ Life Orb<br>
+            Level 100<br>
+            EVs: 252 HP / 252 SpA<br>
+            Modest Nature<br>
+            - Surf        (Top)<br>
+            - Aqua Jet    (Left)<br>
+            - Protect     (Right)<br>
+            - Bubble Beam (Bottom)<br>
+        </td>
+        <td>
+            <b>Dragalge</b> @ Life Orb<br>
+            Level 100<br>
+            EVs: 252 HP / 252 SpA<br>
+            Modest Nature<br>
+            - Sludge Wave (Top)<br>
+            - Surf        (Left)<br>
+            - Protect     (Right)<br>
+            - Sludge Bomb (Bottom)<br>
+        </td>
+      <tr>
+    </table>
 
 ## Credits
 
