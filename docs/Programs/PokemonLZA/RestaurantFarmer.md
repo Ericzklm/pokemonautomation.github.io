@@ -121,7 +121,7 @@ When to pick each restaurant:
     <td>2.25 minutes</td>
   </tr>
   <tr>
-    <th>Pocket Difference per Hour*</th>
+    <th>Profit (w/o Items) per Hour*</th>
     <td>95,500 per hour</td>
     <td>15,000 per hour</td>
     <td>-363,000 per hour***</td>
